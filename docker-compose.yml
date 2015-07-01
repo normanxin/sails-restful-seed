@@ -1,0 +1,7 @@
+web:
+  build: .
+  ports:
+   - "1337:1337"
+  volumes:
+   - .:/usr/src/app
+  working_dir: /usr/src/app
