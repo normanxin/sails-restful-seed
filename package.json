@@ -21,5 +21,8 @@
     "url": "git://github.com/nxin/sails-restful-seed.git"
   },
   "author": "nxin",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
