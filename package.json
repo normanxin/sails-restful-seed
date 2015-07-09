@@ -24,6 +24,7 @@
   "license": "",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-develop-server": "^0.4.3",
     "gulp-install": "^0.4.0"
   }
 }
