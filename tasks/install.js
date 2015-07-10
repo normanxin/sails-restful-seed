@@ -1,8 +1,6 @@
-var install = require('gulp-install');
-
-module.exports = function(gulp) {
+module.exports = function(gulp, plugins) {
   return function() {
     gulp.src(['./package.json'])
-      .pipe(install());
+      .pipe(plugins.install());
   };
 };

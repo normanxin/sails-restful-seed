@@ -1,7 +1,5 @@
-var server = require( 'gulp-develop-server' );
-
-module.exports = function(gulp) {
+module.exports = function(gulp, plugins) {
   return function() {
-    server.listen( { path: './app.js' } );
+    plugins.developServer.listen({ path: './app.js' });
   };
 };
