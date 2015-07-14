@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 
 gulp.task('install', loadTask('./tasks/install'));
 gulp.task('server:start', loadTask('./tasks/develop-server'));
-gulp.task('default');
+gulp.task('default', loadTask('./tasks/default'));
 
 function loadTask(path) {
   return require(path)(gulp, plugins);
