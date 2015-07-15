@@ -56,13 +56,13 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  someMongodbServer: {
+  dockerMongodbServer: {
     adapter: 'sails-mongo',
-    host: 'localhost',
+    host: process.env.SAILSRESTFULSEED_DB_1_PORT_27017_TCP_ADDR,
     port: 27017,
     // user: 'username',
     // password: 'password',
-    // database: 'your_mongo_db_name_here'
+    database: 'sails_restful_mongo_db'
   },
 
   /***************************************************************************

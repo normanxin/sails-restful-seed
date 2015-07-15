@@ -9,3 +9,6 @@ RUN npm install --global forever
 
 # Port 1337 for server
 EXPOSE 1337
+
+# Install dependencies and start sails server
+CMD ["gulp"]
